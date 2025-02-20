@@ -1,0 +1,95 @@
+.mission {
+  position: relative;
+  padding-bottom:113px;
+  overflow: hidden;
+  &__content {
+    display: flex;
+    flex-direction: column;
+    max-width: 625px;
+    padding-top: 205px;
+  }
+
+  .title {
+    color: $dark-color;
+    font-family: "Teko", sans-serif;
+    font-size: 64px;
+    letter-spacing: 0.05em;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+  }
+
+  &__description--text {
+    color: $dark-gray;
+    font-family: "Blinker", sans-serif;
+    font-size: 20px;
+    line-height: 29px;
+    font-weight: 400;
+    margin-bottom: 74px;
+  }
+
+  &__buttons {
+    display: flex;
+    align-items: center;
+    gap: 48px;
+  }
+
+  &__button {
+    background: $yellow-primary;
+    padding: 15px 63px 15px 63px;
+    transition: .5s ease;
+    cursor: pointer;
+  }
+
+  &__button:hover {
+    background: $btn-hover;
+    transition: .5s ease;
+  }
+
+  .button {
+    color: $btn-text;
+    font-family: "Teko", sans-serif;
+    font-size: 33px;
+    line-height: 40px;
+    font-weight: 400;
+    text-decoration: none;
+
+  }
+
+  .button__transparent {
+    background: transparent;
+    cursor: pointer;
+    border: 2px solid $yellow-primary;
+    transition: .5s ease;
+  }
+
+  .button__transparent:hover {
+    transition: .5s ease;
+    background: $light-gray;
+  }
+
+  .button__transparent a {
+    color: $yellow-primary;
+    font-family: "Teko", sans-serif;
+    font-size: 30px;
+    line-height: 40px;
+    font-weight: 400;
+
+  }
+
+  &__img {
+    clip-path: polygon(20% 0, 100% 0, 100% 100%, 0% 100%);
+    position: relative;
+  }
+
+
+  &__image--wrapper {
+    position: absolute;
+    display: block;
+    right: 0;
+    top: 0;
+
+  }
+
+
+}

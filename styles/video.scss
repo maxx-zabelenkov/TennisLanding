@@ -1,0 +1,21 @@
+.video{
+  overflow: hidden;
+  position: relative;
+}
+
+.video img{
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
+
+.overlay_video{
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height:99.5%;
+  pointer-events: none;
+  z-index:1;
+}

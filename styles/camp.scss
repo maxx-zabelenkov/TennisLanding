@@ -1,0 +1,126 @@
+.camp {
+  padding-top: 210px;
+  position: relative;
+
+  &__content--mid {
+    position: absolute;
+    top: 100px;
+    right: 60px;
+    z-index: 2;
+    background-color: white;
+    max-width: 1138px;
+  }
+
+  &__content--right {
+    position: absolute;
+    top: 210px;
+    right: 0;
+    width: 48%;
+    overflow: hidden;
+  }
+
+  &__mid--item {
+    padding: 38px 76px 30px;
+    box-shadow: 0 4px 1px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  &__content--left {
+    display: flex;
+    flex-direction: column;
+    max-width: 553px;
+    padding-top: 260px;
+  }
+
+  &__content--title {
+    color: $dark-color;
+    font-family: "Teko", sans-serif;
+    font-size: 64.2px;
+    line-height: 77px;
+    letter-spacing: 0.05em;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+  &__icon{
+    text-align: center;
+  }
+  &__mid--title{
+    color: $dark-color;
+    text-align: center;
+    font-family: "Blinker", sans-serif;
+    font-size: 34px;
+    letter-spacing: 0.05em;
+    font-weight: 600;
+
+  }
+
+  &__mid--desc{
+    color:$dark-gray;
+    font-family: "Blinker", sans-serif;
+    font-size: 21px;
+    letter-spacing: 0.05em;
+    font-weight: 400;
+    text-align: center;
+
+  }
+
+  &__content--desc {
+    color: $dark-gray;
+    font-family: "Blinker", sans-serif;
+    font-size: 21px;
+    line-height: 29px;
+    font-weight: 400;
+  }
+
+  &__content--btn {
+    margin-top: 62px;
+  }
+
+  &__image{
+    width: 100%;
+  }
+
+  &__content--price {
+    position: absolute;
+    bottom: 30px;
+    left: 20px;
+    padding: 10px 51px;
+    background-color: $white;
+    box-shadow: 0 4px 1px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  &__button {
+    background-color: $yellow-primary;
+    border: none;
+    text-decoration: none;
+    color: $dark-color;
+    font-family: "Teko", sans-serif;
+    font-size: 33px;
+    line-height: 40px;
+    font-weight: 400;
+    padding: 15px 63px;
+
+  }
+  &__button:hover {
+    background-color: $btn-hover;
+
+  }
+  &__content--week {
+    color: #000000;
+
+    font-family: "Blinker", sans-serif;
+    font-size: 21px;
+    letter-spacing: 0.05em;
+    font-weight: 400;
+
+
+  }
+  &__content--week span{
+    color: #000000;
+    font-family: "Blinker", sans-serif;
+    font-size: 43px;
+    letter-spacing: 0.05em;
+    font-weight: 600;
+
+  }
+}
+

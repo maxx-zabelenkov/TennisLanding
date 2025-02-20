@@ -1,0 +1,88 @@
+.header {
+
+  &__top {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 50px 0;
+  }
+
+  .title{
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: "Oxanium", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: $dark-color;
+    font-size: 38px;
+    text-decoration: none;
+  }
+
+  &__info {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap:46px;
+  }
+
+  &__info p {
+    margin-bottom: 0;
+  }
+  &__menu{
+    display: flex;
+    justify-content: center;
+    background-color: $dark-color;
+
+  }
+  &__button {
+    background: $yellow-primary;
+    padding: 15px 63px 15px 63px;
+    transition: .5s ease;
+    cursor: pointer;
+  }
+
+  &__button:hover {
+    background: $btn-hover;
+    transition: .5s ease;
+  }
+
+  .button{
+    color: $btn-text;
+    font-family: "Teko", sans-serif;
+    font-size: 33px;
+    line-height: 40px;
+    font-weight: 400;
+    text-decoration: none;
+  }
+
+  &__text{
+    color: $dark-color;
+    font-family: "Teko", sans-serif;
+    font-size: 27px;
+    letter-spacing: 0.05em;
+    font-weight: 400;
+    .underline{
+      text-decoration: underline 2px solid $yellow-primary;
+    }
+  }
+
+  &__list--item{
+    padding: 31px 15px 22px;
+  }
+
+  &__item--link{
+    color: #ffffff;
+
+    font-family: "Teko", sans-serif;
+    font-size: 27px;
+    letter-spacing: 0.05em;
+    font-weight: 400;
+  }
+  &__list--item:hover{
+    background:$yellow-primary;
+    .header__item--link{
+      color: $dark-color;
+    }
+  }
+}
+
+

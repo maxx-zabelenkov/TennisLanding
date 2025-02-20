@@ -1,0 +1,81 @@
+@charset "UTF-8";
+/* --- Заголовок с подчеркиванием --- */
+.highlight {
+  text-decoration: underline;
+  text-decoration-thickness: 5px;
+  text-decoration-color: yellow;
+}
+
+/* --- Кнопка Register --- */
+.btn-warning {
+  background-color: #FFC107;
+  border: none;
+  font-weight: bold;
+  padding: 10px 20px;
+  transition: 0.3s;
+}
+
+.btn-warning:hover {
+  background-color: #E0A800;
+}
+
+/* --- Изображение тренера (делаем адаптивным) --- */
+.img-fluid {
+  width: 100%;
+  height: auto;
+}
+
+/* --- Блок с ценой --- */
+.price-box {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  background-color: white;
+  padding: 15px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.price-box strong {
+  font-size: 18px;
+}
+
+/* --- Контактная информация --- */
+.contact-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.contact-info div {
+  flex: 1;
+}
+
+.contact-info i {
+  font-size: 24px;
+  color: #FFC107;
+  margin-bottom: 5px;
+}
+
+/* --- Адаптивность для мобильных устройств --- */
+@media (max-width: 768px) {
+  .row {
+    flex-direction: column;
+    text-align: center;
+  }
+  .price-box {
+    position: static;
+    margin: 20px auto;
+  }
+  .contact-info {
+    flex-direction: column;
+  }
+  .contact-info div {
+    margin-bottom: 20px;
+  }
+}
+
+/*# sourceMappingURL=camp.css.map */
