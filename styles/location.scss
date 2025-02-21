@@ -1,0 +1,27 @@
+.location{  position: relative;
+overflow: hidden;
+  &__overlay{
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height:100%;
+    z-index:1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  &__title{
+    color: $white;
+    text-align: center;
+    font-family: "Teko", sans-serif;
+    font-size: 64px;
+    letter-spacing: 0.05em;
+    font-weight: 600;
+    text-transform: uppercase;
+
+  }
+}
+
+

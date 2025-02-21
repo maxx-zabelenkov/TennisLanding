@@ -1,0 +1,98 @@
+.footer {
+  background-color: $dark-color;
+  padding: 150px 0;
+
+  &__content {
+
+  }
+
+  &__item {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  &__item--title {
+  }
+
+  &__title {
+    color: $white;
+
+    font-family: "Oxanium", sans-serif;
+    font-size: 38px;
+    font-weight: 700;
+    text-transform: uppercase;
+
+  }
+
+  &__item--text {
+  }
+
+  &__text {
+    color: $light-gray;
+    text-align: left;
+    font-family: "Blinker", sans-serif;
+    font-size: 24px;
+    line-height: 29.16px;
+    font-weight: 400;
+
+  }
+
+  &__item--subtitle {
+  }
+
+  &__subtitle {
+    color: $white;
+    text-align: left;
+    font-family: "Tekor", sans-serif;
+    font-size: 32px;
+    letter-spacing: 0.05em;
+    font-weight: 400;
+
+  }
+
+  &__list {
+    padding-left: 0;
+  }
+
+  &__list-item {
+  }
+
+  &__item--link {
+    color: $light-gray;
+    text-align: left;
+    font-family: "Blinker", sans-serif;
+    font-size: 24px;
+    line-height: 29.16px;
+    font-weight: 400;
+    text-decoration: none;
+  }
+
+  &__item--icons {
+    display: flex;
+    gap: 30px;
+
+
+  }
+
+  &__icons--link {
+  }
+
+  &__item--img {
+  }
+
+  &__item--btn {
+
+  }
+
+  &__button {
+    padding: 15px 63px;
+    border: 3px solid $yellow-primary;
+    color: $yellow-primary;
+    font-family: "Teko", sans-serif;
+    font-size: 33px;
+    line-height: 40px;
+    font-weight: 400;
+  }
+}
+

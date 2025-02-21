@@ -1,0 +1,123 @@
+.faq {
+  padding: 184px 0;
+
+  &__content {
+    display: flex;
+   gap:80px;
+
+  }
+
+  &__content--left {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 345px;
+  }
+
+  &__content--titles {
+    display: flex;
+    flex-direction: column;
+
+  }
+
+
+  &__subtitle {
+    color: $yellow-primary;
+
+    font-family: "Blinker", sans-serif;
+    font-size: 24px;
+    line-height: 23px;
+    font-weight: 400;
+    text-align: left;
+
+  }
+
+
+  &__title {
+    color: $dark-color;
+
+    font-family: "Teko", sans-serif;
+    font-size: 64px;
+    text-align: left;
+    letter-spacing: 0.05em;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+
+
+  &__description {
+    color: $dark-gray;
+    font-family: "Blinker", sans-serif;
+    font-size: 20px;
+    line-height: 29px;
+    font-weight: 400;
+
+  }
+
+  &__content--right {
+
+  }
+
+  &__content--items {
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  &__content--item {
+    padding: 54px 0;
+    border-bottom: 2px solid $dark-gray;
+  }
+
+  &__item--num {
+    color: $yellow-primary;
+    text-align: left;
+    font-family: "Blinker", sans-serif;
+    font-size: 24px;
+    letter-spacing: 0.05em;
+    font-weight: 600;
+    text-transform: uppercase;
+
+  }
+
+  &__item--title {
+    color: $dark-color;
+    text-align: left;
+    font-family: "Blinker", sans-serif;
+    font-size: 35px;
+    letter-spacing: 0.05em;
+    font-weight: 600;
+    text-transform: uppercase;
+
+  }
+
+  &__item--answer {
+  }
+
+  &__answer {
+    color: $dark-gray;
+    font-family: "Blinker", sans-serif;
+    font-size: 22px;
+    line-height: 27px;
+    font-weight: 400;
+  }
+
+  &__answer span {
+    color: $dark-gray;
+    font-family: "Blinker", sans-serif;
+    font-size: 22px;
+    line-height: 27px;
+    font-weight: 600;
+  }
+
+  &__answer a {
+    color: $yellow-primary;
+    text-decoration: none;
+
+  }
+}
+
+.container {
+  &__custom {
+  }
+}

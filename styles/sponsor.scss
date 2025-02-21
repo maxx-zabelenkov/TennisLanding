@@ -1,0 +1,50 @@
+.sponsor {
+  border-bottom: 1px solid $dark-gray;
+  padding-top: 121px;
+  padding-bottom: 57px;
+  background-color: $dark-color;
+  &__content {
+    display: flex;
+    flex-direction: column;
+    gap:61px;
+  }
+
+  &__conten--title {
+
+  }
+
+  &__title {
+    color: $white;
+    text-align: center;
+    font-family: "Teko", sans-serif;
+    font-size: 64px;
+    letter-spacing: 0.05em;
+    font-weight: 600;
+    text-transform: uppercase;
+
+  }
+
+  &__content--items {
+    display: flex;
+    justify-content: space-around;
+  gap: 50px;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  &__content--item {
+  }
+
+  &__item--img {
+  }
+
+  &__img {
+    width: 100%;
+  }
+}
+
+
+
+
+
+
