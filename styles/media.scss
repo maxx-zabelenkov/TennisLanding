@@ -20,8 +20,52 @@
     &__wrapper {
       width: 95%;
     }
+
   }
 
+  .camp{
+    padding-top: 30px;
+    &__content{
+      justify-content: center;
+      gap:40px;
+    }
+    &__content--mid{
+      display: none;
+    }
+    &__content--left{
+
+      width: 100%;
+    }
+    &__content--right{
+      display: none;
+    }
+    &__content--hide{
+      padding: 0 25px;
+      gap: 20px;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    &__item--hide{
+      padding: 20px;
+      border: 1px solid black;
+      text-align: center;
+    }
+    &__content--left{
+      padding-top: 0;
+    }
+  }
+  .schedule{
+    margin-top: 50px;
+    padding-top: 50px;
+  }
+  .equipment__content--titles {
+    text-align: center;
+  }
+  .equipment__content--items{
+    justify-content: center;
+  }
 }
 
 @media (max-width: 1199.98px) {
@@ -50,6 +94,21 @@
     justify-content: center;
     gap: 70px;
 
+  }
+
+  .schedule__content--titles {
+text-align: center;
+  }
+  .schedule__info--title{
+    text-align: center;
+  }
+  .schedule__info--items{
+    justify-content: center;
+
+  }
+
+  .schedule__content--btn{
+    text-align: center;
   }
 
 
@@ -122,5 +181,18 @@
   .staff__content--right {
     gap: 20px;
   }
+
+  .equipment{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    &__desc{
+
+      font-size: 18px;
+
+
+
+    }
+  }
+
 
 }

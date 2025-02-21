@@ -1,0 +1,87 @@
+.schedule{
+  margin-top:182px;
+  padding-top: 192px;
+  background-color:$dark-color;
+  &__content{
+    display: flex;
+    flex-direction: column;
+  }
+  &__content--titles{
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+  }
+
+  &__title{
+    color:$white;
+    font-family: "Teko", sans-serif;
+    font-size: 64px;
+    letter-spacing: 0.05em;
+    font-weight: 600;
+    text-transform: uppercase;
+
+  }
+  &__subtitle{
+    color:$yellow-primary;
+    font-family: "Blinker", sans-serif;
+    font-size: 24px;
+    line-height: 23.32px;
+    font-weight: 400;
+
+  }
+
+  &__info{
+    display: flex;
+    flex-direction: column;
+  }
+&__info--title{
+  color:$yellow-primary;
+  font-family: "Blinker", sans-serif;
+  font-size: 30px;
+  letter-spacing: 0.05em;
+  font-weight: 600;
+  text-transform: uppercase;
+
+}
+  &__info--items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap:20px
+  }
+  &__info--item{
+    width: 425px;
+  }
+  &__item--time{
+    color: $white;
+    font-family: "Blinker", sans-serif;
+    font-size: 37px;
+    letter-spacing: 0.05em;
+    font-weight: 600;
+    text-transform: uppercase;
+
+  }
+
+  &__item--text{
+    color: $white;
+    font-family: "Blinker", sans-serif;
+    font-size: 25px;
+    letter-spacing: 0.05em;
+    font-weight: 400;
+    text-transform: uppercase;
+  }
+
+  &__button{
+    color: $yellow-primary;
+    font-family: "Teko", sans-serif;
+    font-size: 25px;
+    line-height: 31px;
+    font-weight: 400;
+    text-decoration: none;
+  }
+
+  &__button:hover {
+    color: $btn-hover;
+  }
+}

@@ -472,6 +472,162 @@
   letter-spacing: 0.05em;
   font-weight: 600;
 }
+.camp__content--hide {
+  display: none;
+}
+
+.schedule {
+  margin-top: 182px;
+  padding-top: 192px;
+  background-color: #010101;
+}
+.schedule__content {
+  display: flex;
+  flex-direction: column;
+}
+.schedule__content--titles {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.schedule__title {
+  color: #fff;
+  font-family: "Teko", sans-serif;
+  font-size: 64px;
+  letter-spacing: 0.05em;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.schedule__subtitle {
+  color: #fbc702;
+  font-family: "Blinker", sans-serif;
+  font-size: 24px;
+  line-height: 23.32px;
+  font-weight: 400;
+}
+.schedule__info {
+  display: flex;
+  flex-direction: column;
+}
+.schedule__info--title {
+  color: #fbc702;
+  font-family: "Blinker", sans-serif;
+  font-size: 30px;
+  letter-spacing: 0.05em;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.schedule__info--items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.schedule__info--item {
+  width: 425px;
+}
+.schedule__item--time {
+  color: #fff;
+  font-family: "Blinker", sans-serif;
+  font-size: 37px;
+  letter-spacing: 0.05em;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.schedule__item--text {
+  color: #fff;
+  font-family: "Blinker", sans-serif;
+  font-size: 25px;
+  letter-spacing: 0.05em;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.schedule__button {
+  color: #fbc702;
+  font-family: "Teko", sans-serif;
+  font-size: 25px;
+  line-height: 31px;
+  font-weight: 400;
+  text-decoration: none;
+}
+.schedule__button:hover {
+  color: #bd9700;
+}
+
+.equipment {
+  background-color: #010101;
+  padding-top: 188px;
+  padding-bottom: 188px;
+}
+.equipment__content {
+  display: flex;
+  flex-direction: column;
+}
+.equipment__titles {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-bottom: 48px;
+}
+.equipment__content--subtitle {
+  color: #fbc702;
+  font-family: "Blinker", sans-serif;
+  font-size: 24px;
+  line-height: 23px;
+  font-weight: 400;
+}
+.equipment__content--title {
+  color: #fff;
+  font-family: "Teko", sans-serif;
+  font-size: 64px;
+  letter-spacing: 0.05em;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.equipment__content--items {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.equipment__content--item {
+  display: flex;
+  gap: 10px;
+  background-color: #2e2e2e;
+  padding-top: 28px;
+  padding-bottom: 31px;
+  width: 485px;
+  border-left: 2px solid #fbc702;
+}
+.equipment__item--text {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.equipment__num {
+  color: #fbc702;
+  font-family: "Blinker", sans-serif;
+  font-size: 27px;
+  letter-spacing: 0.05em;
+  font-weight: 600;
+  margin-bottom: 0;
+  text-transform: uppercase;
+}
+.equipment__desc {
+  color: #fff;
+  font-family: "Blinker", sans-serif;
+  font-size: 25px;
+  letter-spacing: 0.05em;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.equipment .icon {
+  background-color: #fbc702;
+  padding: 2px;
+  width: 71px;
+  height: 67px;
+}
 
 @media (max-width: 1540px) {
   .staff {
@@ -491,6 +647,47 @@
   }
   .staff__wrapper {
     width: 95%;
+  }
+  .camp {
+    padding-top: 30px;
+  }
+  .camp__content {
+    justify-content: center;
+    gap: 40px;
+  }
+  .camp__content--mid {
+    display: none;
+  }
+  .camp__content--left {
+    width: 100%;
+  }
+  .camp__content--right {
+    display: none;
+  }
+  .camp__content--hide {
+    padding: 0 25px;
+    gap: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .camp__item--hide {
+    padding: 20px;
+    border: 1px solid black;
+    text-align: center;
+  }
+  .camp__content--left {
+    padding-top: 0;
+  }
+  .schedule {
+    margin-top: 50px;
+    padding-top: 50px;
+  }
+  .equipment__content--titles {
+    text-align: center;
+  }
+  .equipment__content--items {
+    justify-content: center;
   }
 }
 @media (max-width: 1199.98px) {
@@ -515,6 +712,18 @@
     flex-wrap: wrap;
     justify-content: center;
     gap: 70px;
+  }
+  .schedule__content--titles {
+    text-align: center;
+  }
+  .schedule__info--title {
+    text-align: center;
+  }
+  .schedule__info--items {
+    justify-content: center;
+  }
+  .schedule__content--btn {
+    text-align: center;
   }
 }
 @media (max-width: 767.98px) {
@@ -571,6 +780,13 @@
   }
   .staff__content--right {
     gap: 20px;
+  }
+  .equipment {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .equipment__desc {
+    font-size: 18px;
   }
 }
 .container__custom {

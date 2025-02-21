@@ -1,0 +1,80 @@
+.equipment{
+  background-color: $dark-color;
+  padding-top: 188px;
+  padding-bottom: 188px;
+  &__content{
+    display: flex;
+    flex-direction: column;
+  }
+  &__titles{
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+    margin-bottom: 48px;
+  }
+  &__content--subtitle{
+    color:$yellow-primary;
+    font-family: "Blinker", sans-serif;
+    font-size: 24px;
+    line-height: 23px;
+    font-weight: 400;
+
+  }
+  &__content--title{
+    color: $white;
+    font-family: "Teko", sans-serif;
+    font-size: 64px;
+    letter-spacing: 0.05em;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+
+  &__content--items{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap:20px;
+  }
+  &__content--item{
+    display: flex;
+    gap:10px;
+    background-color: $dark-gray;
+    padding-top: 28px;
+    padding-bottom: 31px;
+    width: 485px;
+    border-left:2px solid $yellow-primary;
+  }
+  &__item--text{
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+  }
+  &__num{
+    color: $yellow-primary;
+    font-family: "Blinker", sans-serif;
+    font-size: 27px;
+    letter-spacing: 0.05em;
+    font-weight: 600;
+    margin-bottom: 0;
+    text-transform: uppercase;
+  }
+&__desc{
+  color: $white;
+
+  font-family: "Blinker", sans-serif;
+  font-size: 25px;
+  letter-spacing: 0.05em;
+  font-weight: 600;
+  text-transform: uppercase;
+
+
+}
+  .icon{
+    background-color: $yellow-primary;
+    padding: 2px;
+    width: 71px;
+    height: 67px;
+  }
+
+
+}
